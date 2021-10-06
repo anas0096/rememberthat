@@ -1,0 +1,166 @@
+:root{  
+    --primary-color:rgb(0, 119, 255);
+}
+body{
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 239, 239)
+    
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+header ul{
+    list-style-type: none;
+    display: none;
+
+}
+header ul a{
+    text-decoration: none;
+}
+header .branding{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.branding span{
+         color: var(--primary-color );
+}
+a{
+    color: black;
+    
+}
+
+
+.hero{
+    text-align: center;
+
+}
+.left-col{
+    margin-top:3em ;
+    
+}
+.left-col h3{
+        font-size: .9em;
+    letter-spacing: .4em;
+        text-transform: uppercase;
+    color: rgb(65, 65, 65);
+    
+ }
+ 
+ section .left-col h1{
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-top: 0;
+      padding-top:0;
+
+  }
+.try-for-free{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    border-radius:40px;
+    display:inline-block;
+    
+
+}
+.watch-video-button{
+    display: block;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+.watch-video-button img{
+    margin-right: 8px;
+}
+
+
+.right-col img{
+     margin: auto;
+     
+     width: 250px;
+     height: 250px;
+}
+.features-section{
+    background: #515194;
+    color: white;
+    padding:20px 0px;
+    margin-bottom: 0;
+}
+.features-section ul{
+           list-style-type: upper-roman;
+          
+        
+}
+.features-section ul li{
+
+    margin: 15px;
+    padding: 2px;
+}
+.quotes-section ul{
+      list-style-type: none;
+      margin-top: 20px;
+      padding-top: 20px;
+      
+}
+.quotes-section ul li{
+    margin-top:40px ;
+    background: rgb(102, 102, 102) ;
+    color: white;
+    margin-left: 0;
+}
+section .quotes-section{
+    background: rgb(243, 241, 241);
+    margin-top: 0px;
+    text-align: center;
+    justify-content: justify;
+}
+.quotes-section img{
+    width: 60px;
+    border-radius:25px;
+    
+    margin: -30px auto 20px ;
+    
+}
+.quotes-section{
+     
+    padding: 20px;
+
+}
+form input{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+
+}
+form textarea{
+    width: 100%;
+    height:60px;
+    border: none;
+    border-radius: 10px;
+}
+.send-button{
+    background: var(--primary-color);
+    color: #f2f2f2;
+    font-weight: bold;
+    
+}
+.left-contact{
+   width: 100%;
+   
+}
+iframe{
+    width:360px;
+    height: 500px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+label{
+    padding: 3px;
+}
