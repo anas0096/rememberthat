@@ -17,6 +17,7 @@ header{
 
  header .menu-image{
     cursor: pointer;
+    margin-left:19rem;
 }
 
 
@@ -32,6 +33,11 @@ header .branding{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
+    
+ 
+}
+.header .menu-enter{
+    margin-left: -5em;
 }
 
 .branding span{
